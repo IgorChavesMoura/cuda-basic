@@ -12,3 +12,8 @@
     3. Transfer data from the host to the device.
     4. Execute one or more kernels.
     5. Transfer results from the device to the host.
+
+## Some programming details
+
+* __device__ functions can be called only from the device, and it is executed only in the device.
+* __global__ functions can be called from the host, and it is executed in the device.
