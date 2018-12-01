@@ -15,11 +15,11 @@
 
 ## Some programming details
 
-* CUDA has a runtime API, so we don't need to include anything.
 * __device__ functions can be called only from the device, and it is executed only in the device.
 * __global__ functions can be called from the host, and it is executed in the device.
 * __shared__ variables are shared between the host and the device
 * You have to keep in mind that we have now two type of memories to manage, the CPU standard memory and the GPU memory.
 
-## Samples
+## Samples (Made on Linux Ubuntu)
 * saxpy: Simple large array addition
+* mvmult: Vector Matrix product
