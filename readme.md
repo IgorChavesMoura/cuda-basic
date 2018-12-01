@@ -23,3 +23,10 @@
 ## Samples (Made on Linux Ubuntu)
 * saxpy: Simple large array addition
 * mvmult: Vector Matrix product
+
+## Requirements to run
+* A NVIDIA GPU with CUDA support
+* CUDA installed on your system (https://developer.nvidia.com/cuda-toolkit)
+
+## How to run (Linux)
+* Having CUDA installed , use nvcc to compile the source files (like you do with gcc)
